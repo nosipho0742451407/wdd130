@@ -24,7 +24,7 @@ header, main, footer {
     margin: 0 auto;
 }
 h1, h2{
-    font-family: var(--fheading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 nav, p, section, article {
