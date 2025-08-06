@@ -1,16 +1,20 @@
-:root{
-    --primary-color: #6457A6; /* Ultra violet */
-    --secondary-color: #4BC0D9; /* Vista Blue */
-    --Accent1-color: #76E5FC; /* Non photo blue */
-    --Accent2-color: #9DACFF; /* Aero */
+:root {
+    --primary-color: #6457A6;
+    /* Ultra violet */
+    --secondary-color: #4BC0D9;
+    /* Vista Blue */
+    --Accent1-color: #76E5FC;
+    /* Non photo blue */
+    --Accent2-color: #9DACFF;
+    /* Aero */
     --heading-font: 'Roboto', sans-serif;
     --body-font: 'lato', sans-serif;
 }
-header{
+header {
     background-color: var(--primary-color);
     color: var(--Accent2-color);
 }
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,15 +23,21 @@ body {
     font-family: var(--font-family);
     color: var(--Accent1-color);
 }
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
-h1, h2{
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -44,15 +54,29 @@ nav, p, section, article {
 }
 h1 {
     position: absolute;
-    top: 100%;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff; /* White text - make sure there is enough contrast */
+    background-color: var(--Accent1-color);
+    color: #fff;
+    /* White text - make sure there is enough contrast */
+}
+.hero article {
+    position: absolute;
+    top: 90px;
+    width: 96%;
+    padding: 16px;
+    text-align: left;
+    opacity: 0.9;
+    background-color: white;
+    color: black
+        /* White text - make sure there is enough contrast */
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 200px;
+    margin: 16px;
+    border: black 1px solid;
 }
